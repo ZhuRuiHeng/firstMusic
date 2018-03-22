@@ -1,0 +1,257 @@
+/* pages/paiwei/paiwei.wxss */
+.inform{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    margin:0 auto;
+    background: #e1e1ff;
+    border-radius: 20rpx;
+    padding: 10rpx 0 0 20rpx;
+    position: relative;
+}
+.inform .left image{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+.inform .right .niceName{
+    font-size: 30rpx;
+    color: #626262;
+}
+.inform .right >view{
+  margin: 12rpx 0;
+}
+.inform .right .group{
+    display: flex;
+    justify-content: space-between;
+    font-size:30rpx;
+    color:#626262;
+}
+.group .line{
+    width: 100rpx;
+    background: #ffffff;
+    border:1px solid #f7f7f7;
+    position: relative;
+    border-radius: 10rpx;
+    height: 10rpx;
+    top:14rpx;
+    left: 20rpx;
+}
+.group .line .finish{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffd73b;
+  height:10rpx;
+}
+.right .gold{
+  background: #ffffff;
+  border: 1px solid #e1e1ff;
+  color: #fda3a3;
+  padding: 0 20rpx;
+  border-radius: 30rpx;
+  font-size: 28rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  position: absolute;
+  right: 20rpx;
+  top: 60rpx
+}
+.right .gold image{
+    width: 30rpx;
+    height: 30rpx;
+    vertical-align: middle;
+    position: relative;
+    top: -4rpx;
+    margin-right: 10rpx;
+}
+.forward{
+    text-align: center;
+    font-size: 28rpx;
+    color: #626262;
+    padding: 20rpx 0 80rpx 0;
+}
+.morePlay{
+    position: relative;
+}
+.morePlay .item{
+    width: 140rpx;
+    height: 260rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: #655bce;
+    display: inline-block;
+}
+.morePlay .item image{
+    width: 168rpx;
+    height: 168rpx;
+}
+.item .payGold{
+    color: #f5ae10;
+    font-size: 26rpx;
+}
+.item .payGold image{
+    width: 30rpx;
+    height: 30rpx;
+    position: relative;
+    top: 4rpx;
+    right: 6rpx;
+}
+.morePlay .item1{
+    position: absolute;
+    top: 40rpx;
+    left: 90rpx;
+}
+.morePlay .item2{
+    position: absolute;
+    top: 240rpx;
+    left: 300rpx;
+}
+.morePlay .item3{
+    position: absolute;
+    top: 440rpx;
+    left: 518rpx;
+}
+.morePlay .item4{
+    position: absolute;
+    top: 640rpx;
+    left: 300rpx;
+}
+.morePlay .item5{
+    position: absolute;
+    top: 840rpx;
+    left: 90rpx;
+}
+.morePlay .item6{
+    position: absolute;
+    top: 1040rpx;
+    left: 300rpx;
+}
+.morePlay .item7{
+    position: absolute;
+    top: 1240rpx;
+    left: 518rpx;
+}
+.morePlay .item8{
+    position: absolute;
+    top: 1440rpx;
+    left: 300rpx;
+}
+.morePlay .item9{
+    position: absolute;
+    top: 1640rpx;
+    left: 90rpx;
+}
+.morePlay .item10{
+    position: absolute;
+    top: 1840rpx;
+    left: 300rpx;
+}
+.morePlay .item11{
+    position: absolute;
+    top: 2040rpx;
+    left: 518rpx;
+}
+.morePlay .item12{
+    position: absolute;
+    top: 2240rpx;
+    left: 300rpx;
+}
+.morePlay .item13{
+    position: absolute;
+    top: 2440rpx;
+    left: 90rpx;
+}
+.morePlay .item14{
+    position: absolute;
+    top: 2640rpx;
+    left: 300rpx;
+}
+.morePlay .item15{
+    position: absolute;
+    top: 2840rpx;
+    left: 518rpx;
+}
+.morePlay .item16{
+    position: absolute;
+    top: 3040rpx;
+    left: 300rpx;
+}
+.morePlay .item17{
+    position: absolute;
+    top: 3240rpx;
+    left: 90rpx;
+}
+.morePlay .item18{
+    position: absolute;
+    top: 3440rpx;
+    left: 300rpx;
+}
+.morePlay .item19{
+    position: absolute;
+    top: 3640rpx;
+    left: 518rpx;
+}
+.morePlay .item20{
+    position: absolute;
+    top: 3840rpx;
+    left: 300rpx;
+}
+.morePlay .item21{
+    position: absolute;
+    top: 4040rpx;
+    left: 518rpx;
+}
+/* 弹窗 */
+.bg{
+ width: 100%;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.6);
+   overflow: hidden;
+   position:fixed; /* static */
+   top: 0;
+   left: 0;
+   z-index: 3;
+ }
+ .zindex{
+   width: 60%;
+   background: #fff;
+   margin: 0 auto;
+   position: absolute;
+   text-align: center;
+   border-radius: 20rpx;
+   z-index: 6;
+   height: 280rpx;
+   top: 50%; 
+   left: 50%;  
+   -webkit-transform: translate(-50%,-50%);  
+   -ms-transform: translate(-50%,-50%);  
+   transform: translate(-50%,-50%);
+   font-size: 32rpx;
+ }
+ .zindex .title {
+    padding: 30rpx;
+ }
+ .zindex .title image{
+    width: 30rpx;
+    height: 30rpx;
+    vertical-align: middle;
+    position: relative;
+    top: -4rpx;
+    left: 6rpx;
+    margin-right: 6rpx;
+ }
+ .zindex .think{
+    border-top: 1px solid #f7f7f7;
+    display: flex;
+    text-align: center; 
+    color: #655bce;
+ }
+ .zindex .think view{
+     flex:1;
+     padding:20rpx;
+ }
+ .zindex .think .one{
+     border-right: 1px solid #f7f7f7;
+ }
